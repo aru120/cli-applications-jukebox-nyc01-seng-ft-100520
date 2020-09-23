@@ -52,7 +52,7 @@ end
 
 
 def run(songs)
-  listofsongs = songs
+  
   input = ""
   
   while input
@@ -63,9 +63,9 @@ def run(songs)
   when "help"
     help
   when "list"
-    list(listofsongs)
+    list(songs)
   when "play"
-    play(listofsongs)
+    play(songs)
   when "exit"
     exit_jukebox
   else
