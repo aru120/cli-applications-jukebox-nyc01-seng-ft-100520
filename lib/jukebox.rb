@@ -20,4 +20,7 @@
       puts "-exit : exits this program"
     end
     
-   
+   def list(arr)
+     arr.each do |index|
+       
+ end
