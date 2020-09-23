@@ -21,6 +21,7 @@
     end
     
    def list(arr)
-     arr.each do |index|
+     arr.each do |value, index|
+       puts "#{index+1}. #{value}"
        
  end
