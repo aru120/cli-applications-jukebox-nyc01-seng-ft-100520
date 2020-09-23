@@ -34,14 +34,12 @@ require 'pry'
    song = ""
    arr.each_with_index do |value, index|
      if input == (index+1) 
-       
      song = value
-     return song
      else
        puts "Invalid input, please try again"
    end
  end
- 
+  return song
  end
  
-list(songs)
+play(songs)
