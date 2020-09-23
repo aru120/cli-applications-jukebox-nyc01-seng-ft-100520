@@ -44,7 +44,7 @@ require 'pry'
  end
   if boolean == false
     puts "Invalid input, please try again"
-  
+  end
  end
  
 play(songs)
