@@ -39,9 +39,7 @@ require 'pry'
        elsif input == value
        puts "Playing #{value}"
      boolean = true
-       
-     end
-   
+   end
  end
   if boolean == false
     puts "Invalid input, please try again"
