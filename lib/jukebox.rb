@@ -32,8 +32,8 @@ require 'pry'
    puts "Please enter a song name or number:"
   input = gets.strip
    arr.each_with_index do |value, index|
-     if input.to_i == index
-       puts "Playing #{value[index-1]}"
+     if input.to_i == index+1
+       puts "Playing #{value[index]}"
        elsif input == value
        puts "Playing #{value[index]}"
      else
