@@ -22,7 +22,7 @@ require 'pry'
     end
     
    def list(arr)
-     arr.each_with_index do |value, index+1|
+     arr.each_with_index do |value, index|
        binding.pry
        puts "#{index+1}. #{value}"
      end
