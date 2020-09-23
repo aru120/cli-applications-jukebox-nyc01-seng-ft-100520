@@ -58,6 +58,7 @@ def run(arr)
     play(arr)
   when "exit"
     exit_jukebox
+    break
   else
     "Invalid Command"
   end
