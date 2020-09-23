@@ -40,7 +40,7 @@ require 'pry'
        puts "Invalid input, please try again"
    end
  end
-  return song
+  
  end
  
 play(songs)
