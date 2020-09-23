@@ -31,8 +31,15 @@ require 'pry'
  def play(arr)
    puts "Please enter a song name or number:"
   input = gets.strip
-   if arr.include?(input)
-     
+   arr.each_with_index do |value, index|
+     if input.to_i == index
+       puts "Playing #{value[index-1]}"
+       elsif input == value
+       puts "Playing #{value[index]}"
+     else
+       puts "Invalid input, please try again"
+   end
+ end
   
   
  end
