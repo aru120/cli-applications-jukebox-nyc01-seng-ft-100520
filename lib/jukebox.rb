@@ -30,7 +30,7 @@ require 'pry'
  
  def play(arr)
    puts "Please enter a song name or number:"
-  # input = gets.strip
+  input = gets.strip
    song = ""
    arr.each_with_index do |value, index|
      if input == (index+1) 
