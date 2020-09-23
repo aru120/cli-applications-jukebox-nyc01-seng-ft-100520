@@ -33,7 +33,7 @@ require 'pry'
   input = gets.strip
    arr.each_with_index do |value, index|
      if input.to_i == index+1
-       puts "Playing #{value}"
+       return "Playing #{value}"
        elsif input == value
        puts "Playing #{value[index]}"
      else
