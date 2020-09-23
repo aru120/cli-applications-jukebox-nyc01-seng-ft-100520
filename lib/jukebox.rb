@@ -4,11 +4,11 @@ require 'pry'
  
     
     def help
-      puts "I accept the following commands:"
-      puts "-help : displays this help message"
-      puts "-list : displays a list of songs you can play"
-      puts  "-play : lets you choose a song to play"
-      puts  "-exit : exits this program"
+      puts"I accept the following commands:"
+      puts"-help : displays this help message"
+      puts"-list : displays a list of songs you can play"
+      puts"-play : lets you choose a song to play"
+      puts"-exit : exits this program"
     end
     
    def list(arr)
@@ -42,23 +42,23 @@ end
 
 
 def run(arr)
-  
   input = ""
   
   while input
+  
   puts "Please enter a command:"
   input = gets.strip
  
   case input
-  when "help"
-    help
-  when "list"
-    list(arr)
-  when "play"
-    play(arr)
-  when "exit"
-    exit_jukebox
-    break
+    when "help"
+       help
+    when "list"
+      list(arr)
+    when "play"
+      play(arr)
+    when "exit"
+     exit_jukebox
+      break
   else
     "Invalid Command"
   end
