@@ -33,9 +33,9 @@ require 'pry'
   input = gets.strip
    song = ""
    arr.each_with_index do |value, index|
-     if input == (index+1) 
-     song = value
-     binding.pry
+     if input == (index+1) || input == value
+    return value
+    
      else
        puts "Invalid input, please try again"
    end
