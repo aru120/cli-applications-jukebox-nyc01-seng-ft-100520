@@ -54,7 +54,7 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  binding.pry
+ 
   case input
   when "help"
     help
