@@ -34,6 +34,7 @@ require 'pry'
    
    arr.each_with_index do |value, index|
      if input == index+1 
+       binding.pry
        puts "Playing #{value}"
      else
        puts "Invalid input, please try again"
