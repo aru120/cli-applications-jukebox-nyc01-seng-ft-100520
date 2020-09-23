@@ -20,4 +20,4 @@
       puts "-exit : exits this program"
     end
     
-    help
+   
