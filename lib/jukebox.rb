@@ -61,7 +61,7 @@ def run
   when "list"
     list
   when "play"
-    play(songs)
+    play
   when "exit"
     exit_jukebox
   else
