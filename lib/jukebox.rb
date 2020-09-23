@@ -37,8 +37,8 @@ require 'pry'
        puts "Playing #{value}"
        elsif input == value
        puts "Playing #{value}"
-     else
-       puts "Invalid input, please try again"
+     else puts "Invalid input, please try again"
+      
    end
  end
   
