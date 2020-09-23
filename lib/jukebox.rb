@@ -71,4 +71,3 @@ def run
 end
 
 
-help
