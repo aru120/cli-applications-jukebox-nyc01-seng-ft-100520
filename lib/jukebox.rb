@@ -25,3 +25,4 @@
        puts "#{index+1}. #{value}"
        
  end
+ list
