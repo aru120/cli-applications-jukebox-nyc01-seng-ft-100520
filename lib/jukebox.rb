@@ -1,4 +1,5 @@
 # Add your code here
+require 'pry'
 
     songs = [
       "Phoenix - 1901",
@@ -25,4 +26,19 @@
        puts "#{index+1}. #{value}"
      end
  end
- list(songs)
+ 
+ 
+ def play(arr)
+   puts "Please enter a song name or number:"
+   input = gets.strip
+   
+   arr.each_with_index do |value, index|
+     if input == index+1 
+       puts "Playing #{value}"
+     else
+       puts "Invalid input, please try again"
+   end
+   
+ end
+ 
+ play(songs)
