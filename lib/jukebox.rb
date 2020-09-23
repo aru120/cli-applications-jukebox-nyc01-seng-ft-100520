@@ -52,6 +52,9 @@ end
 
 
 def run(songs)
+  input = ""
+  
+  while input
   puts "Please enter a command:"
   input = gets.strip
  
@@ -69,5 +72,5 @@ def run(songs)
   end
         
 end
-
+end
 run
