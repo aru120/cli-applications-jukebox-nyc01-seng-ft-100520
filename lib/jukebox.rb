@@ -41,7 +41,7 @@ def exit_jukebox
 end
 
 
-def run(songs)
+def run(arr)
   
   input = ""
   
@@ -53,9 +53,9 @@ def run(songs)
   when "help"
     help
   when "list"
-    list(songs)
+    list(arr)
   when "play"
-    play(songs)
+    play(arr)
   when "exit"
     exit_jukebox
   else
@@ -64,4 +64,4 @@ def run(songs)
         
 end
 end
-run
+
